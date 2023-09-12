@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('azienda', 32);
             $table->string('stazione di partenza', 64);
             $table->string('stazione di arrivo', 64);
+            $table->date('giorno_di_partenza');
             $table->time('orario di partenza', $precision = 0);
             $table->time('orario di arrivo', $precision = 0);
             $table->mediumInteger('codice treno');
